@@ -21,20 +21,20 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans   &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp N7  &kp N8   &kp N9     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp N4  &kp N5   &kp N6     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp N1  &kp N2   &kp N3     &trans  &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                    &kp F6  &kp F7  &kp F8   &kp F9     &kp F10  &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp N7  &kp N8   &kp N9     &trans   &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp N4  &kp N5   &kp N6     &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp N1  &kp N2   &kp N3     &trans   &trans
                 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp N0  &kp DOT  &kp EQUAL
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &trans         &trans        &trans     &trans        &trans                          &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &kp LS(EXCL)   &kp LS(DQT)   &kp BSLH   &kp LS(LBRC)  &kp LS(RBRC)                    &trans  &trans    &kp UP    &trans     &trans  &trans
-&trans  &kp LS(PIPE)   &kp LS(DLLR)  &kp GRAVE  &kp LBKT      &kp RBKT                        &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &kp LS(PRCNT)  &kp POUND     &kp BSLH   &kp LS(LPAR)  &kp LS(RPAR)  &trans    &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &kp F1         &kp F2        &kp F3     &kp F4        &kp F5                          &kp F6  &kp F7    &kp F8    &kp F9     &kp F10  &kp F11
+&trans  &kp LS(EXCL)   &kp LS(DQT)   &kp BSLH   &kp LS(LBRC)  &kp LS(RBRC)                    &trans  &trans    &kp UP    &trans     &trans   &kp F12
+&trans  &kp LS(PIPE)   &kp LS(DLLR)  &kp GRAVE  &kp LBKT      &kp RBKT                        &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &trans
+&trans  &kp LS(PRCNT)  &kp POUND     &kp BSLH   &kp LS(LPAR)  &kp LS(RPAR)  &trans    &trans  &trans  &trans    &trans    &trans     &trans   &trans
                        &trans        &trans     &trans        &trans        &trans    &trans  &trans  &trans    &trans    &trans
             >;
         };
